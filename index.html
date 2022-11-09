@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .hotpot,
+		.sushi {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            transition: padding 1s;
+            overflow: hidden;
+        }
+
+        .hotpot {
+            background-color: rgb(0, 136, 204);
+            margin-bottom: 20px;
+
+        }
+        .hotpot img{
+            width: 50px;
+			height: 50px;
+            position: absolute;
+			text-align: center;
+        }
+        .sushi img {
+            width: 50px;
+			height: 50px;
+            position: absolute;
+			text-align: center;
+        }
+
+        .sushi {
+            background-color: rgb(231, 76, 60);
+        }
+
+        #text1 {
+            position: absolute;
+            left: -3px;
+            width: 200px;
+            height: 50px;
+			padding-left: 20px;
+            text-align: center;
+            line-height: 20px;
+            transition: opacity 1s;
+            color: white;
+        }
+
+		#text2 {
+            position: absolute;
+            left: -3px;
+            width: 200px;
+            height: 50px;
+			padding-left: 20px;
+            text-align: center;
+            line-height: 20px;
+            transition: opacity 1s;
+            color: white;
+        }
+        .hotpot:hover {
+            padding-left: 180px;
+        }
+
+        .sushi:hover {
+            padding-left: 180px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="hotpot">
+            <p id="text1"> 寿司——Sushi</p>
+            <img src="https://iconfont.alicdn.com/p/illus/preview_image/51eTho8PEPrC/e16f7661-d49c-457b-8004-d6ba70e69817.png" >
+        </div>
+        <div class="sushi">
+            <p id="text2"> 火锅——hot pot</p>
+            <img src="https://iconfont.alicdn.com/p/illus/preview_image/51eTho8PEPrC/1d6a0d5e-59bf-441d-8de5-3298a92a972c.png" >
+        </div>
+    </div>
+</body>
+</html>
